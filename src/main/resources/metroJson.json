@@ -1,0 +1,24 @@
+{
+	"stations":[
+		{
+			"name":"Nemiga"
+		},
+		{
+			"name":"Proletarskaya"
+		}
+	],
+	"employees":[
+		{
+			"firstName":"Sergey",
+			"lastName":"Sinica"
+		},
+		{
+			"firstName":"Ivan",
+			"lastName":"Drozd"
+		}
+	],
+	"timeTable":{
+		"startWorking":"04:00",
+		"endWorking":"23:59"
+	}
+}

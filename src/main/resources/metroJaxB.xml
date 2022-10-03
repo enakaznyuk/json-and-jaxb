@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Metros>
+    <Employees>
+        <Employee>
+                <firstName>Sergey</firstName>
+                <lastName>Sinica</lastName>
+	    </Employee>
+	    <Employee>
+		    <firstName>Ivan</firstName>
+            <lastName>Drozd</lastName>
+	    </Employee>
+    </Employees>
+    <Stations>
+        <Station>
+            <name>Nemiga</name>
+        </Station>
+        <Station>
+            <name>Proletarskaya</name>
+        </Station>
+    </Stations>
+    <timeTable>
+        <startWorking>04:00</startWorking>
+        <endWorking>23:59</endWorking>
+    </timeTable>
+</Metros>

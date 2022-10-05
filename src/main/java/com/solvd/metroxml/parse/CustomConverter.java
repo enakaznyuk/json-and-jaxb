@@ -8,6 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 public class CustomConverter implements JsonDeserializer<LocalTime>, JsonSerializer<LocalTime> {
+
     private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
 
     @Override

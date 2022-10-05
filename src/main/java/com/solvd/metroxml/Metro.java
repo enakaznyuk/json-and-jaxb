@@ -42,4 +42,13 @@ public class Metro {
     public void setTimeTable(Timetable timetable) {
         this.timeTable = timetable;
     }
+
+    @Override
+    public String toString() {
+        return "Metro{" +
+                "stations=" + stations +
+                ", employees=" + employees +
+                ", timeTable=" + timeTable +
+                '}';
+    }
 }

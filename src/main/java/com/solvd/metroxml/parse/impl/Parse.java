@@ -35,15 +35,13 @@ public class Parse implements IPars {
             List<Employee> employees = metro.getEmployees();
             List<Station> stations = metro.getStations();
 
-            int i=0;
-            for(Employee employee : employees)
-            {
+            int i = 0;
+            for (Employee employee : employees) {
                 i++;
                 System.out.println("employee:" + i + " " + employee.getFirstName());
             }
-            int j=0;
-            for(Station station : stations)
-            {
+            int j = 0;
+            for (Station station : stations) {
                 j++;
                 System.out.println("station:" + j + " " + station.getName());
             }

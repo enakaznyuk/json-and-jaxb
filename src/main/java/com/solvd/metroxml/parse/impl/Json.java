@@ -16,7 +16,7 @@ public class Json implements IPars {
 
     @Override
     public Metro parse(File file) throws IOException {
-        Metro metro = new Metro();
+        Metro metro;
 
         String fileForRead;
         fileForRead = FileUtils.readFileToString(file, StandardCharsets.UTF_8);

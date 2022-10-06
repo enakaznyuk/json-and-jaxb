@@ -12,10 +12,10 @@ public class Main {
     public static void main(String[] args) throws IOException {
 
         IPars iPars = new Parse();
-        File xmlFile = new File("D:/Java/metro-xml/src/main/resources/metroJaxB.xml");
+        File xmlFile = new File("./src/main/resources/metroJaxB.xml");
         Metro metro1 = iPars.parse(xmlFile);
 
-        File jsonFile = new File("D:/Java/metro-xml/src/main/resources/metroJson.json");
+        File jsonFile = new File("./src/main/resources/metroJson.json");
         IPars json = new Json();
         Metro metro2 = json.parse(jsonFile);
 
